@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth scroll-pt-[70px] motion-reduce:scroll-auto motion-reduce:[&_*]:transition-none! motion-reduce:[&_*]:animate-none! motion-reduce:[&_*::before]:transition-none! motion-reduce:[&_*::after]:transition-none!" data-standalone="" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Lieu | SENEMPLOI</title>
+<meta content="SENEMPLOI 2024 — Lieu. Salon International de l’Entreprenariat, de l’Emploi et de la Formation du Sénégal." name="description"/>
+<meta content="Lieu | SENEMPLOI" property="og:title"/>
+<meta content="SENEMPLOI 2024 — Lieu. Salon International de l’Entreprenariat, de l’Emploi et de la Formation du Sénégal." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="img/SEN.png" rel="icon"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11"></script>
+<style type="text/tailwindcss">
+/* Le survol  */
+@custom-variant hover (&:hover);
+
+@theme {
+  /* Points de rupture identiques à ceux du site d'origine */
+  --breakpoint-sm: 36rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 62rem;
+  --breakpoint-xl: 75rem;
+
+  /* Polices */
+  --font-sans: "Open Sans", sans-serif;
+  --font-heading: "Raleway", sans-serif;
+  --font-fa: FontAwesome;
+
+  --default-transition-timing-function: ease;
+
+  
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-surface: oklch(0.99999999 0.00000004 0);
+  --color-ink: oklch(0.31399063 0.01278823 272.97783);
+  --color-brand: oklch(0.76063939 0.15835736 50.74865);
+  --color-brand-link-hover: oklch(0.76235632 0.15733175 51.02675);
+  --color-brand-hover: oklch(0.71079238 0.1938627 45.83765);
+  --color-heading: oklch(0.24748344 0.09387765 267.72037);
+  --color-muted: oklch(0.67076405 0.01967793 272.19137);
+  --color-tint: oklch(0.97708364 0.00803844 278.63883);
+  --color-header-overlay: oklch(0.16322656 0.04715631 268.25148 / 0.7);
+  --color-header-solid: oklch(0.16322656 0.04715631 268.25148 / 0.98);
+  --color-nav-ink: oklch(0.85285353 0.02119653 273.99751 / 0.8);
+  --color-navy: oklch(0.16322656 0.04715631 268.25148);
+  --color-menu-shadow: oklch(0.63030806 0.0380097 267.42699 / 0.25);
+  --color-neutral-border: oklch(0.89754686 0.00000003 0);
+  --color-banner-overlay: oklch(0.16322656 0.04715631 268.25148 / 0.9);
+  --color-overlay-80: oklch(0.16322656 0.04715631 268.25148 / 0.8);
+  --color-overlay-76: oklch(0.16322656 0.04715631 268.25148 / 0.76);
+  --color-overlay-60: oklch(0.16322656 0.04715631 268.25148 / 0.6);
+  --color-hero-ink: oklch(0.94007011 0.00000004 0);
+  --color-indigo-deep: oklch(0.28830513 0.1153791 266.71429);
+  --color-link-dark: oklch(0.32833697 0.13558987 266.45542);
+  --color-link-blue: oklch(0.56169105 0.18356097 268.18435);
+  --color-tile-border: oklch(0.92441269 0.02898895 275.14473);
+  --color-star: oklch(0.84841419 0.16889958 85.28582);
+  --color-error: oklch(0.62795536 0.25768331 29.23389);
+  --color-footer-bottom: oklch(0.19746915 0.02744894 267.72584);
+  --color-footer-ink: oklch(0.94911925 0.00000004 0);
+  --color-footer-top: oklch(0.1441219 0.03644717 265.2935);
+  --color-social: oklch(0.27213987 0.03035248 273.38374);
+  --color-footer-divider: oklch(0.29908012 0.04448433 272.7255);
+  --color-modal-overlay: oklch(0 0 0 / 0.5);
+  --color-lightbox: oklch(0.15 0.03 266 / 0.96);
+
+  --shadow-dropdown: 0 8px 16px 0 oklch(0 0 0 / 0.2);
+
+  
+  --animate-reveal: reveal 0.8s ease both;
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+
+@font-face {
+  font-family: FontAwesome;
+  src: url("lib/font-awesome/fonts/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+</style>
+</head>
+<body class="bg-surface text-ink font-sans group/body data-[nav-open]:overflow-hidden data-[modal-open]:overflow-hidden">
+<header class="fixed inset-x-0 top-0 z-[997] h-[90px] py-6.25 bg-header-overlay transition-all duration-500 max-lg:bg-header-solid max-lg:h-[70px] max-lg:py-3.75 data-[scrolled]:bg-header-solid data-[scrolled]:h-[70px] data-[scrolled]:py-3.75" id="header">
+<div class="w-full mx-auto px-3.75 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
+<div class="absolute top-0 h-[100px] w-[100px]" id="logo">
+<a class="text-brand hover:text-brand-link-hover focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none" href="index.html"><img alt="" class="inline-block max-w-full max-h-full" src="img/SEN.png" title=""/></a>
+</div>
+<nav class="float-right max-lg:hidden" id="nav-menu-container">
+<ul class="m-0 p-0 list-none">
+<li class="relative whitespace-nowrap float-left ml-2 group/li"><a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none p-2 max-xl:px-1 inline-block text-nav-ink hover:text-surface font-heading font-semibold text-[14px] outline-none before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0 before:left-0 before:bg-brand before:invisible before:transition-all before:duration-300 before:ease-in-out hover:before:visible hover:before:w-full group-hover/li:before:visible group-hover/li:before:w-full" href="index.html">Accueil</a></li>
+<li class="relative whitespace-nowrap float-left ml-2 group/dd inline-block transition-all duration-300 ease-in-out hover:cursor-pointer data-[open]:block">
+<button aria-expanded="false" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 bg-transparent text-nav-ink group-hover/dd:text-brand p-2 max-xl:px-1 border-0 font-heading font-semibold text-[14px] outline-none" data-dropbtn="" type="button">Participer</button>
+<div class="hidden absolute bg-navy min-w-[160px] shadow-dropdown z-[1] group-hover/dd:block group-focus-within/dd:block group-data-[open]/dd:block">
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="participer.html">Exposer</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="sponsoriser.html">Sponsoriser</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="deleguer.html">Déleguer</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="visiter.html">Visiter</a>
+</div>
+</li>
+<li class="relative whitespace-nowrap float-left ml-2 group/dd inline-block transition-all duration-300 ease-in-out hover:cursor-pointer data-[open]:block">
+<button aria-expanded="false" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 bg-transparent text-nav-ink group-hover/dd:text-brand p-2 max-xl:px-1 border-0 font-heading font-semibold text-[14px] outline-none" data-dropbtn="" type="button">Partenaires</button>
+<div class="hidden absolute bg-navy min-w-[160px] shadow-dropdown z-[1] group-hover/dd:block group-focus-within/dd:block group-data-[open]/dd:block">
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="sponsors.html">Sponsors</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="exposants.html">Exposants</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="medias.html">Media</a>
+</div>
+</li>
+<li class="relative whitespace-nowrap float-left ml-2 group/dd inline-block transition-all duration-300 ease-in-out hover:cursor-pointer data-[open]:block">
+<button aria-expanded="false" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 bg-transparent text-nav-ink group-hover/dd:text-brand p-2 max-xl:px-1 border-0 font-heading font-semibold text-[14px] outline-none" data-dropbtn="" type="button">Agenda</button>
+<div class="hidden absolute bg-navy min-w-[160px] shadow-dropdown z-[1] group-hover/dd:block group-focus-within/dd:block group-data-[open]/dd:block">
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="presentation.html">Presentation</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="#schedule">Programme</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="#">Orateurs</a>
+</div>
+</li>
+<li class="relative whitespace-nowrap float-left ml-2 group/dd inline-block transition-all duration-300 ease-in-out hover:cursor-pointer data-[open]:block">
+<button aria-expanded="false" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 bg-transparent text-nav-ink group-hover/dd:text-brand p-2 max-xl:px-1 border-0 font-heading font-semibold text-[14px] outline-none" data-dropbtn="" type="button">Lieu &amp; Voyage</button>
+<div class="hidden absolute bg-navy min-w-[160px] shadow-dropdown z-[1] group-hover/dd:block group-focus-within/dd:block group-data-[open]/dd:block">
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="#">Lieu</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="horaire.html">Horaire</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="#">Conseils de voyage</a>
+</div>
+</li>
+<li class="relative whitespace-nowrap float-left ml-2 group/dd inline-block transition-all duration-300 ease-in-out hover:cursor-pointer data-[open]:block">
+<button aria-expanded="false" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 bg-transparent text-nav-ink group-hover/dd:text-brand p-2 max-xl:px-1 border-0 font-heading font-semibold text-[14px] outline-none" data-dropbtn="" type="button">Actualités</button>
+<div class="hidden absolute bg-navy min-w-[160px] shadow-dropdown z-[1] group-hover/dd:block group-focus-within/dd:block group-data-[open]/dd:block">
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="#">Étude de marché</a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none block py-3 px-4 text-nav-ink hover:text-brand font-heading font-semibold text-[14px] outline-none" href="communique.html">Communiqué de presse</a>
+</div>
+</li>
+<li class="relative whitespace-nowrap float-left ml-2 group/li">
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none p-2 max-xl:px-1 inline-block text-nav-ink hover:text-surface font-heading font-semibold text-[14px] outline-none before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0 before:left-0 before:bg-brand before:invisible before:transition-all before:duration-300 before:ease-in-out hover:before:visible hover:before:w-full group-hover/li:before:visible group-hover/li:before:w-full" href="#">Recrutement</a>
+</li>
+<li class="relative whitespace-nowrap float-left ml-2 group/li"><a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none p-2 max-xl:px-1 inline-block text-nav-ink hover:text-surface font-heading font-semibold text-[14px] outline-none before:content-[''] before:absolute before:w-0 before:h-0.5 before:bottom-0 before:left-0 before:bg-brand before:invisible before:transition-all before:duration-300 before:ease-in-out hover:before:visible hover:before:w-full group-hover/li:before:visible group-hover/li:before:w-full" href="#contact">Contact</a></li>
+<li class="relative whitespace-nowrap float-left ml-2" data-register=""><a class="focus:text-brand-link-hover active:text-brand-link-hover duration-500 focus:outline-none inline-block text-surface hover:text-surface bg-brand hover:bg-transparent py-1.75 px-5.5 rounded-[50px] border-2 border-brand transition-all duration-300 ease-in-out font-heading font-medium ml-2 mt-0.5 leading-none text-[13px] outline-none" href="#buy-tickets">S'inscrire</a></li>
+<div class="inline [&_a]:m-0 [&_a]:ml-[5px] [&_a]:p-0 hover:border-0 hover:no-underline! gtranslate_wrapper gtranslate_wrapper"></div>
+</ul>
+</nav>
+</div>
+</header>
+<section class="w-full h-[400px] bg-[url(../img/BANNIERE-GENERALE.png)] bg-top bg-cover overflow-hidden relative before:content-[''] before:absolute before:inset-0 before:bg-banner-overlay" id="banner_participants">
+<div class="w-full mx-auto px-3.75"></div>
+</section>
+<section class="invisible data-[revealed]:visible data-[revealed]:animate-reveal mt-2.5" data-reveal="" id="participants">
+<div class="w-full mx-auto px-3.75 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
+<div class="relative mb-15 pb-5 before:content-[''] before:absolute before:block before:w-15 before:h-1.25 before:bg-brand before:bottom-0 before:left-[calc(50%-25px)]">
+<h2 class="font-heading text-heading leading-[1.2] text-[36px] uppercase text-center font-bold mb-2.5">Lieu</h2>
+</div>
+<div class="flex flex-wrap -mx-3.75">
+<div class="relative min-h-px px-3.75 w-full lg:w-1/2">
+<p class="mb-7.5">
+              Le Grand Théâtre, plus qu’un théâtre..., une merveille au cœur de
+              la capitale. Inauguré le 15 avril 2011, le Grand Théâtre National
+              s’inscrit dans le projet du Parc Culturel de Dakar. Avec son
+              théâtre unique en Afrique avec 1800 places, une salle de banquet
+              modulable d’une capacité de 1000 places, une salle de conférence
+              de 250 places, un parking de 290 places, un écran de 15m2 rien que
+              pour le cinéma GTN allie intelligemment une vocation initiale de
+              diffusion artistique à celle d’un espace d’exposition commercial
+              pour le secteur privé. La GTN est la5ème merveille de Dakar et
+              reste un joyau entre les mains d’une ressource humaine hautement
+              qualifiée.
+            </p>
+</div>
+<div class="relative min-h-px px-3.75 w-full lg:w-1/2">
+<img alt="Speaker 1" class="inline-block h-full w-full" src="img/SENEMPLOI/IMAGES/t3.jpeg"/>
+</div>
+</div>
+</div>
+<div class="w-full mx-auto my-20 p-0">
+<iframe allowfullscreen="" class="w-full h-full min-h-[500px]" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Grand+Théâtre+National+de+Dakar,+Dakar,+Senegal&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+</div>
+</section>
+<footer class="bg-footer-bottom pb-6.25 text-footer-ink text-[14px]" id="footer">
+<div class="bg-footer-top pt-15 pb-7.5">
+<div class="w-full mx-auto px-3.75 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
+<div class="flex flex-wrap -mx-3.75">
+<div class="relative min-h-px px-3.75 mb-7.5 w-full lg:w-1/4 md:w-1/2">
+<img alt="AMETRADE" class="inline-block h-[150px] w-[150px] mb-2.5 -mt-3.75" src="img/AME.png"/>
+<p class="text-[14px] leading-6 mb-0 font-heading text-surface">
+                AME Trade Ltd est un organisateur international d’événements,
+                spécialisé dans les conférences B2B, qui possède plus de 20 ans
+                d’expérience dans les économies émergentes. Basée au
+                Royaume-Uni, AME Trade possède des bureaux régionaux en Angola,
+                au Cameroun, au Mozambique, au Sénégal, en Afrique du Sud et en
+                Zambie, ainsi qu’une représentation dans plus de 15 pays
+                d’Afrique.
+              </p>
+</div>
+<div class="relative min-h-px px-3.75 mb-7.5 w-full lg:w-1/4 md:w-1/2">
+<h4 class="font-heading leading-[1.2] mb-5 text-[14px] font-bold text-surface uppercase relative pb-3 border-b-2 border-brand">Menu</h4>
+<ul class="list-none p-0 m-0">
+<li class="border-b border-footer-divider py-2.5 pt-0">
+<i aria-hidden="true" class="pr-[5px] text-brand text-[18px] inline-block font-fa not-italic font-normal leading-none antialiased"></i>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none text-footer-ink hover:text-brand" href="https://ametrade.org/cookie-policy/">Politique en matière de cookies</a>
+</li>
+<li class="border-b border-footer-divider py-2.5">
+<i aria-hidden="true" class="pr-[5px] text-brand text-[18px] inline-block font-fa not-italic font-normal leading-none antialiased"></i>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover transition-all duration-500 focus:outline-none text-footer-ink hover:text-brand" href="https://ametrade.org/cookie-policy/">Politique de Confidentialité</a>
+</li>
+</ul>
+</div>
+<div class="relative min-h-px px-3.75 mb-7.5 w-full lg:w-1/4 md:w-1/2">
+<h4 class="font-heading leading-[1.2] mb-5 text-[14px] font-bold text-surface uppercase relative pb-3 border-b-2 border-brand">Nous Contacter</h4>
+<p class="mb-7.5 leading-[26px]">
+                AMETRADE SENEGAL <br/>
+                Ngor Extension Lot N°430 TF 557 <br/>
+                Dakar, Sénégal <br/>
+<strong class="font-bold">Numéro:</strong> +221 33 820 52 14 /+221 77 360 83 82<br/>
+<strong class="font-bold">Email:</strong> senegal@ametrade.org<br/>
+</p>
+<div>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover duration-500 focus:outline-none text-[18px] inline-block bg-social text-footer-ink hover:bg-brand hover:text-surface leading-none py-2 mr-1 rounded-[50%] text-center w-9 h-9 transition-all duration-300" href="#"><i aria-hidden="true" class="inline-block font-fa not-italic font-normal leading-none antialiased"></i></a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover duration-500 focus:outline-none text-[18px] inline-block bg-social text-footer-ink hover:bg-brand hover:text-surface leading-none py-2 mr-1 rounded-[50%] text-center w-9 h-9 transition-all duration-300" href="#"><i aria-hidden="true" class="inline-block font-fa not-italic font-normal leading-none antialiased"></i></a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover duration-500 focus:outline-none text-[18px] inline-block bg-social text-footer-ink hover:bg-brand hover:text-surface leading-none py-2 mr-1 rounded-[50%] text-center w-9 h-9 transition-all duration-300" href="https://instagram.com/senemploidakar?igshid=YmMyMTA2M2Y="><i aria-hidden="true" class="inline-block font-fa not-italic font-normal leading-none antialiased"></i></a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover duration-500 focus:outline-none text-[18px] inline-block bg-social text-footer-ink hover:bg-brand hover:text-surface leading-none py-2 mr-1 rounded-[50%] text-center w-9 h-9 transition-all duration-300" href="#"><i aria-hidden="true" class="inline-block font-fa not-italic font-normal leading-none antialiased"></i></a>
+<a class="focus:text-brand-link-hover active:text-brand-link-hover duration-500 focus:outline-none text-[18px] inline-block bg-social text-footer-ink hover:bg-brand hover:text-surface leading-none py-2 mr-1 rounded-[50%] text-center w-9 h-9 transition-all duration-300" href="#"><i aria-hidden="true" class="inline-block font-fa not-italic font-normal leading-none antialiased"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full mx-auto px-3.75 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
+<div class="text-center pt-7.5">
+          © Copyright <strong class="font-bold">SENEMPLOI</strong> by Promising Team.
+        </div>
+</div>
+</footer>
+<a class="active:text-brand-link-hover transition-all fixed hidden data-[visible]:block bg-brand hover:bg-brand-hover focus:bg-brand-hover text-surface hover:text-surface focus:text-surface w-10 h-10 text-center rounded-[50px] right-3.75 bottom-3.75 transition-[background] duration-500 ease-in-out focus:outline-none" data-back-to-top="" href="#"><i aria-hidden="true" class="text-[24px] pt-1.5 inline-block font-fa not-italic font-normal leading-none antialiased"></i></a>
+<div aria-hidden="true" aria-label="Inscription SENEMPLOI 2024" aria-labelledby="registerModalLabel" aria-modal="true" class="hidden data-[open]:block fixed inset-0 z-[1100] overflow-auto bg-modal-overlay" data-modal="" id="registerModal" role="dialog" tabindex="-1">
+<div class="relative w-auto m-2 pointer-events-none sm:max-w-[500px] sm:mx-auto sm:my-7" role="document">
+<div class="relative flex flex-col w-full pointer-events-auto bg-surface border border-neutral-border rounded-[.3rem]">
+<div class="flex items-start justify-between p-4 border-b border-neutral-border">
+<h3 class="font-heading font-normal text-heading text-[1.75rem] mb-0 leading-normal max-md:text-[24px]" id="registerModalLabel">
+<img alt="" class="inline-block" src="img/SEN.png" title="" width="50px"/>
+                Inscription SENEMPLOI 2024
+              </h3>
+<button aria-label="Close" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 float-right text-[1.5rem] font-bold leading-none text-ink opacity-50 border-0 bg-transparent p-4 -m-4 ml-auto" data-close-modal="" type="button">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="relative flex-auto p-4">
+<div class="w-full mx-auto px-3.75 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] hidden">
+<div data-alert="">
+<button aria-hidden="true" class="cursor-pointer disabled:cursor-wait disabled:opacity-65 float-right text-[1.5rem] font-bold leading-none text-ink opacity-50 border-0 bg-transparent p-0" data-dismiss-alert="" id="register-done" type="button">
+                    ×
+                  </button>
+                  Success! message sent successfully.
+                </div>
+</div>
+<form id="registerForm">
+<div class="mb-4">
+<label for="fullName">Prénom &amp; Nom</label>
+<input class="block w-full h-[calc(2.25rem+2px)] py-1.5 px-3 text-[16px] leading-normal text-ink bg-surface border border-neutral-border rounded transition-[border-color,box-shadow] duration-150 placeholder:text-muted placeholder:opacity-100 focus:outline-2 focus:outline-brand focus:outline-offset-1" id="registerFullName" name="fullName" placeholder="Entrer votre prénom et nom" required="" type="text"/>
+</div>
+<div class="mb-4">
+<label for="phone">Téléphone</label>
+<input class="block w-full h-[calc(2.25rem+2px)] py-1.5 px-3 text-[16px] leading-normal text-ink bg-surface border border-neutral-border rounded transition-[border-color,box-shadow] duration-150 placeholder:text-muted placeholder:opacity-100 focus:outline-2 focus:outline-brand focus:outline-offset-1" id="registerPhone" name="phone" placeholder="Entrer votre numero téléphone" required="" type="number"/>
+</div>
+<div class="mb-4">
+<label for="exampleInputEmail1">Email</label>
+<input aria-describedby="emailHelp" class="block w-full h-[calc(2.25rem+2px)] py-1.5 px-3 text-[16px] leading-normal text-ink bg-surface border border-neutral-border rounded transition-[border-color,box-shadow] duration-150 placeholder:text-muted placeholder:opacity-100 focus:outline-2 focus:outline-brand focus:outline-offset-1" id="registerEmail" placeholder="Email" required="" type="email"/>
+</div>
+<div class="text-center">
+<button class="cursor-pointer disabled:cursor-wait disabled:opacity-65 inline-block font-normal text-center align-middle select-none border border-transparent text-[16px] leading-normal bg-brand border-0 py-2.5 px-10 text-surface transition-all duration-400 rounded-[50px]" id="registerBtn" type="submit">
+                    Envoyer
+                    <div role="status">
+<span class="sr-only">Loading...</span>
+</div>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<script src="js/main.js" type="module"></script>
+</body>
+</html>
